@@ -241,7 +241,7 @@ section {
   }
 
   #hero_text_p {
-    color: gray !important;
+    color:burlywood !important;
     margin: 10px 0 0 0 !important;
     font-size: 24px !important;
     font-family: "Poppins", sans-serif !important;
@@ -267,6 +267,9 @@ section {
     border-radius: 50%;
     /* Add this line */
     color: black;
+  }
+  #hero.social-links a {
+    color: burlywood;
   }
 
 
@@ -376,7 +379,7 @@ section {
 # Resume
 --------------------------------------------------------------*/
 .resume p {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: bolder;
 }
 
@@ -438,6 +441,10 @@ section {
   background: #fff;
   border: 2px solid #0563bb;
 }
+.resume li {
+  font-size: 19px;
+}
+
 
 /* <!-- Resume section end --> */
 .cv a:hover {
